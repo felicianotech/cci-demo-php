@@ -5,7 +5,7 @@ machine:
 dependencies:
   override:
     - sudo apt install -y libsqlite3-dev
-    - composer self-update
+    - sudo composer self-update
     - composer install -n --prefer-dist
 
 
